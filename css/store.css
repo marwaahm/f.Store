@@ -1,0 +1,43 @@
+.cover {
+    background-image:url('../1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+  
+.background{
+    background: rgb(198,90,57);
+    background: radial-gradient(circle, rgba(198,90,57,1) 11%, rgba(28,77,80,1) 100%);
+}
+
+.orange{
+    color: #ff7200;
+    font-family: "Dancing Script", cursive;
+}
+
+ /* Set the border color */
+         
+ .custom-toggler.navbar-toggler {
+    border-color: white;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+ 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-orange {
+    background-color: #C15B39!important;
+  }
+  
+  .sign__container {
+    width: 60%;
+  }  
+  
+  @media (min-width: 992px) {
+    .sign__container {
+      width: 350px;
+    }  
+  }
+  
